@@ -15,6 +15,10 @@ h4 {
   font-weight: bold;
 }
 
+h1 {
+    line-height: 1.5;
+}
+
 h3 {
   font-size: 64px;
   color: black;
@@ -35,7 +39,7 @@ nav li {
 
 .hero {
   text-align: center;
-  padding: 160px 20px;
+  padding: 140px 20px;
   background: var(--secondary-color);
 }
 
@@ -137,16 +141,21 @@ footer i {
 }
 
 @media (max-width: 900px) {
-  .hero h1 {
-    font-size: 41px;
-  }
-
   .featured-projects {
     text-align: center;
-    padding: 20px 20px;
+    padding: 0;
   }
 
   .featured-projects h3 {
     font-size: 48px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    padding: 60px 20px;
+  }
+  .hero h1 {
+    font-size: 41px;
   }
 }
