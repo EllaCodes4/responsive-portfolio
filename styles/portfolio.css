@@ -82,7 +82,7 @@ nav li {
   padding: 120px 60px;
 }
 .featured-projects p,
-.about-text p {
+.content p {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
@@ -104,19 +104,31 @@ nav li {
   transition: all 150ms ease-in-out;
 }
 
-.about-text {
+.content {
   padding: 140px 40px 10px 40px;
 }
-.about-text h1 {
+.content h1 {
   font-size: 54px;
   color: black;
   line-height: 75px;
 }
 
-.about-text h2 {
+.content h2 {
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
+}
+
+.content h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.content p {
+font-size: 14px;
+font-family: "Poppins", sans-serif;
+line-height: 22px;
 }
 
 .about-photo {
@@ -148,6 +160,7 @@ footer a {
   font-weight: 500;
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 
 footer a:hover {
@@ -172,7 +185,7 @@ footer i {
     font-size: 48px;
   }
 
-  .about-text {
+  .content {
     text-align: center;
     padding: 60px 20px;
   }
