@@ -16,7 +16,7 @@ h4 {
 }
 
 h1 {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 h3 {
@@ -64,6 +64,7 @@ nav li {
 
 .btn-hero {
   font-size: 18px;
+  line-height: 27px;
   font-weight: 500;
   color: white;
   background: var(--primary-color);
@@ -80,7 +81,8 @@ nav li {
 .featured-projects {
   padding: 120px 60px;
 }
-.featured-projects p {
+.featured-projects p,
+.about-text p {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
@@ -102,9 +104,29 @@ nav li {
   transition: all 150ms ease-in-out;
 }
 
+.about-text {
+  padding: 140px 40px 10px 40px;
+}
+.about-text h1 {
+  font-size: 54px;
+  color: black;
+  line-height: 75px;
+}
+
+.about-text h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.about-photo {
+  border-radius: 40px;
+  margin: 180px 40px;
+}
+
 .work-inquiry {
   background: var(--secondary-color);
-  padding: 40px 40px;
+  padding: 40px;
   margin: 133px 100px 80px 100px;
   border-radius: 20px;
 }
@@ -117,7 +139,7 @@ nav li {
   font-size: 18px;
 }
 
-footer {
+.social-media-icons {
   text-align: center;
 }
 
@@ -149,13 +171,25 @@ footer i {
   .featured-projects h3 {
     font-size: 48px;
   }
+
+  .about-text {
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .about-photo {
+    padding: 0;
+    display: block;
+    margin: 0px auto;
+  }
 }
 
 @media (max-width: 500px) {
   .hero {
     padding: 60px 20px;
   }
-  .hero h1 {
+  .hero h1,
+  .featured-projects h3 {
     font-size: 41px;
   }
 }
