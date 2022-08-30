@@ -29,38 +29,39 @@ h4 {
   color: black;
 }
 nav {
-    padding: 20px 0;
-    margin: 0 100px;
+  padding: 20px 0;
+  margin: 0 100px;
 }
 
 nav img {
-    max-height: 40px;
+  max-height: 40px;
 }
 nav div {
-    font-weight: bold;
-    line-height: 42px;
-    color: var(--primary-color);
+  font-weight: bold;
+  line-height: 42px;
+  color: var(--primary-color);
 }
 nav ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 nav li {
-    display: inline;
-    list-style: none;
-    padding-left: 15px;
-    line-height: 42px;
-    font-size: 16px; 
-    font-weight: 500;
+  display: inline;
+  list-style: none;
+  padding-left: 15px;
+  line-height: 42px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 nav a {
-    text-decoration: none;
-    color: #272142
+  text-decoration: none;
+  color: #272142;
 }
 
-nav a:hover, nav a.active {
-    color: var(--primary-color);
+nav a:hover,
+nav a.active {
+  color: var(--primary-color);
 }
 
 .hero {
@@ -105,7 +106,7 @@ nav a:hover, nav a.active {
 }
 
 .featured-projects {
-  padding: 120px 60px;
+  padding: 100px 60px 0px;
 }
 .featured-projects p,
 .content p {
@@ -146,15 +147,15 @@ nav a:hover, nav a.active {
 }
 
 .content h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .content p {
-font-size: 14px;
-font-family: "Poppins", sans-serif;
-line-height: 22px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  line-height: 22px;
 }
 
 .about-photo {
@@ -163,11 +164,11 @@ line-height: 22px;
 }
 
 .text-brand {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .contact p {
-    font-size: 18px;
+  font-size: 18px;
 }
 .work-inquiry {
   background: var(--secondary-color);
@@ -231,9 +232,9 @@ footer i {
 }
 
 @media (max-width: 650px) {
- nav {
+  nav {
     margin: 0;
- }
+  }
   nav li {
     font-size: 12px;
   }
@@ -250,5 +251,18 @@ footer i {
   .hero h1,
   .featured-projects h3 {
     font-size: 41px;
+  }
+
+  .hero p {
+    font-size: 22px;
+  }
+
+  .hero h2 {
+    font-size: 17px;
+  }
+
+  .content h1 {
+    font-size: 41px;
+    line-height: 55px;
   }
 }
