@@ -170,22 +170,29 @@ nav a.active {
 .contact p {
   font-size: 18px;
 }
-.work-inquiry {
+
+
+footer {
+    margin: 100px 0;
+}
+
+footer .contact-box {
   background: var(--secondary-color);
-  padding: 40px;
-  margin: 133px 100px 80px 100px;
+  padding: 40px 80px;
+  margin: 57px;
   border-radius: 20px;
 }
 
-.work-inquiry h3 {
+footer .contact-box h4 {
   font-size: 48px;
 }
 
-.work-inquiry p {
+footer .contact-box p {
   font-size: 18px;
+  margin: 0;
 }
 
-.social-media-icons {
+footer .social-media-icons {
   text-align: center;
 }
 
@@ -199,6 +206,7 @@ footer a {
 
 footer a:hover {
   color: var(--primary-color);
+  
 }
 
 footer i {
@@ -207,6 +215,11 @@ footer i {
   background: var(--secondary-color);
   padding: 12px;
   border-radius: 40px;
+}
+
+footer i:hover {
+    color: white;
+    background: var(--primary-color);
 }
 
 @media (max-width: 900px) {
@@ -265,4 +278,5 @@ footer i {
     font-size: 41px;
     line-height: 55px;
   }
+
 }
