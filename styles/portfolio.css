@@ -171,9 +171,8 @@ nav a.active {
   font-size: 18px;
 }
 
-
 footer {
-    margin: 100px 0;
+  margin: 100px 0 50px;
 }
 
 footer .contact-box {
@@ -206,7 +205,6 @@ footer a {
 
 footer a:hover {
   color: var(--primary-color);
-  
 }
 
 footer i {
@@ -218,8 +216,8 @@ footer i {
 }
 
 footer i:hover {
-    color: white;
-    background: var(--primary-color);
+  color: white;
+  background: var(--primary-color);
 }
 
 @media (max-width: 900px) {
@@ -278,5 +276,4 @@ footer i:hover {
     font-size: 41px;
     line-height: 55px;
   }
-
 }
