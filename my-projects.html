@@ -113,46 +113,46 @@
               ></button>
             </div>
             <div class="carousel-inner p-2 shadow rounded">
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <img
                   src="/images/weather-app.png"
-                  class="d-block w-100"
+                  class="d-block w-100 h-100"
                   alt="sunny background preview"
                 />
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item data" data-bs-interval="2000">
                 <img
                   src="/images/snowy-weather-preview.PNG"
-                  class="d-block w-100"
+                  class="d-block w-100 h-100"
                   alt="snowy weather preview"
                 />
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img
                   src="/images/foggy-weather-preview.PNG"
-                  class="d-block w-100"
+                  class="d-block w-100 h-100"
                   alt="foggy weather preview"
                 />
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img
                   src="/images/cloudy-weather-preview.PNG"
-                  class="d-block w-100"
+                  class="d-block w-100 h-100"
                   alt="cloudy background preview"
                 />
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img
                   src="/images/rainy-weather-preview.PNG"
-                  class="d-block w-100"
+                  class="d-block w-100 h-100"
                   alt="rainy weather preview"
                 />
               </div>
 
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img
                   src="/images/clear-night-preview.PNG"
-                  class="d-block w-100"
+                  class="d-block w-100 h-100"
                   alt="clear night preview"
                 />
               </div>
@@ -184,7 +184,7 @@
           </div>
           <h3 class="text-center mt-4">
             <a
-              href="https://gleaming-panda-bcbdf1.netlify.app"
+              href="https://gleaming-panda-bcbdf1.netlify.app/"
               target="_blank"
               class="text-decoration-none text-dark"
               title="Weather App | Developed by: Gabriella Corales"
@@ -207,7 +207,7 @@
           />
           <h3 class="text-center mt-4">
             <a
-              href="#"
+              href="https://tubular-sundae-d81810.netlify.app/"
               class="text-decoration-none text-dark"
               title="Minimalist Designed Weather App | Developed by: Gabriella Corales"
               >Minimalist Designed Weather App</a
@@ -222,22 +222,64 @@
         </div>
 
         <div class="col-md-6 mt-5">
-          <img
-            src="/images/iphone-weather-app.png"
-            alt="IPhone Weather App"
-            class="img-fluid rounded p-2 shadow"
-          />
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner p-2 shadow rounded">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="/images/iphone-weather-app-4.PNG"
+                  class="d-block w-100 h-50"
+                  alt="Iphone weather app preview"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="/images/iphone-weather-app-3.PNG"
+                  class="d-block w-100 h-50"
+                  alt="Iphone weather app preview"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
           <h3 class="text-center mt-4">
             <a
               href="#"
               class="text-decoration-none text-dark"
-              title="IPhone-Inspired Weather App | Developed by: Gabriella Corales"
-              >IPhone-Inspired Weather App</a
+              title="iPhone-Inspired Weather App | Developed by: Gabriella Corales"
+              >iPhone-Inspired Weather App</a
             >
           </h3>
           <p class="text-center text-muted">
             Designed to showcase my ability to replicate a design in a "pixel
-            perfect" way. This app design was modelled after the IPhone Weather
+            perfect" way. This app design was modelled after the iPhone Weather
             App (background excluded). Built with HTML, CSS, JavaScript, and a
             Weather API. Features an hourly forecast.
           </p>
@@ -280,8 +322,8 @@
             >
           </h3>
           <p class="text-center text-muted">
-            Built with HTML, CSS, and Bootstrap. This portfolio can be viewed on
-            any device ("responsive").
+            Built with HTML, CSS, and Bootstrap. This website can be viewed on
+            any device, including mobile phones.
           </p>
         </div>
 
